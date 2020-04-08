@@ -1,0 +1,62 @@
+@font-face{
+    font-family: 'Noto Sans KR', sans-serif;
+    src: url(link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap") format('truetype');
+    )
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{
+    background-color: wheat;
+}
+
+h1{ 
+    text-align: center;
+    color: rgb(53, 51, 51);
+}
+h3{
+    text-align: center;
+}
+p{
+    line-height: 1.2;
+    text-align: center;
+}
+
+ul li {
+    color:rgb(139, 69, 19);
+    list-style-type: disc;
+}
+
+a{
+    text-align: center;
+}
+
+.jaju {
+    background-color:rgba(255,255,255,0.5);
+    border:5px solid #41292C;
+    padding:50px 20px 70px 20px;
+    margin:20px;
+    width:325px;
+    margin: 0 auto;
+}
+
+.jaju1 {
+    line-height: 1.2;
+    text-align: center;
+}
+
+.hr1{
+    height: 2px;
+    color:rgb(63, 50, 50);
+    background-color:rgb(63, 50, 50) ;
+    border: none;
+}
+.hr2{
+    height: 2px;
+    color:rgb(63, 50, 50);
+    background-color:rgb(63, 50, 50);
+    border: none;
+}

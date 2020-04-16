@@ -1,0 +1,219 @@
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.ccont1{
+
+}
+
+.ccont2{
+    margin:0px 300px 0px 300px ;
+    padding: 30px 20px 0px;
+    background-color: bisque;
+}
+
+.cont1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin: 0px 300px 0px 300px ;
+}
+
+.box1{
+
+}
+
+/* 검색창 https://webdesign.tutsplus.com/ko/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069  */
+.box2{
+    width: 215px;
+    height: 29px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.search{
+    border:1px solid #6c757e ;
+    width: 215px;
+    height: 20px;
+    font-size: 10pt;
+    text-align: center;
+    color:#63717f;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 3px;
+}
+.box2 .material-icons{
+    position: absolute;
+    z-index: 1;
+    color: #4f5b66;
+    margin-left: 75px;
+  }
+
+.box3{
+    height: 29px;
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+  ;
+}
+
+.cont2{
+    display: flex;
+    justify-content: center;
+}
+.box4{
+    background-color: rebeccapurple;
+    width: 300px;
+    height: 210px;
+    margin: 0px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    width: 160px;
+    height: 160px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+
+.box5{
+    background-color: cornflowerblue;
+    width: 615px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.myinfo{
+    background-color: palevioletred;
+    font-size: 28px;
+}
+
+.pageinfo{
+    background-color: purple;
+    height: 18px;
+    margin: 20px 0px 20px;
+    display: flex;
+}
+
+.info1, .info2, .info3{
+    width: 100px;
+}
+.ment{
+    background-color: powderblue;
+    height: 48px}
+
+.cont3{
+    padding:10px;
+    height: 130px;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.red, .orange, .yellow{
+    width: 115px;
+    height: 130px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.rred, .yyellow, .oorange{
+    display: flex;
+    justify-content: center;
+}
+.story1, .story2, .story3{
+    width: 77px;
+    height: 77px; 
+    border-radius: 70%;
+    padding: 3px;
+    border: solid gray 0.5px;
+}
+.s1, .s2, .s3{
+    text-align: center;
+}
+
+
+.cont4{
+    height: 30px;
+    background-color: yellow;
+}
+
+.cont5{
+    height: 30px;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+}
+
+.more1, .more2, .more3, .more4{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 117px;
+}
+.m1,.m2,.m3,.m4{
+    font-size: 14px;
+}
+
+.cont6{
+    height: 600px;
+    background-color: turquoise;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.r1{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    height: 270px;
+    width: 270px;
+    background-image: url("./images/1.jpg");
+    background-size: cover;
+}
+
+.two{
+    height: 270px;
+    width: 270px;
+    background-image: url("./images/2.jpg");
+    background-size: cover;
+}
+
+.three{
+    height: 270px;
+    width: 270px;
+    background-image: url("./images/3.jpg");
+    background-size: cover;
+}
+.r2{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.four{
+    height: 270px;
+    width: 270px;
+    background-image: url("./images/4.jpg");
+    background-size: cover;
+}
+
+.five{
+    height: 270px;
+    width: 270px;
+    background-image: url("./images/5.jpg");
+    background-size: cover;
+}
+
+.six{
+    height: 270px;
+    width: 270px;
+    background-image: url("./images/6.jpg");
+    background-size: cover;
+}
+/* .two, .three{
+    height: 270px;
+    width: 270px;
+    background-color: palevioletred;
+} */

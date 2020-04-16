@@ -1,0 +1,18 @@
+body{
+    background-color: cornflowerblue;
+    color: crimson
+}
+
+@media(min-width:1000px){
+    body{
+        background-color: coral;
+    }
+}
+@media(min-width:1500px)and (max-width:2000px){
+    body{
+        background-color: darkkhaki;
+    }
+
+}
+@media (min-width:1000px){body{color:yellow;}}
+@media (min-width:1500px) and (max-width:2000px){body{color:violet;}}

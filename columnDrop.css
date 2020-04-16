@@ -1,0 +1,58 @@
+.box { width: 100%; height: 100px; }
+.lime { background-color: lime; }
+.blue { background-color: blue; }
+.skyblue { background-color: skyblue; }
+.green { background-color: green; }
+.red { background-color: red; }
+.orange { background-color: orange; }
+.cyan { background-color: cyan; }
+
+@media ( max-width: 480px ) {
+    #blue {
+      width: auto;
+    }
+    #skyblue {
+      float: none;
+      width: auto;
+    }
+    #green {
+      float: none;
+      width: auto;
+    }
+  }
+
+@media (min-width: 768px) {
+    .blue {
+      float: left;
+      width: 20%;
+    }
+    
+    .skyblue {
+      float: none;
+      width: 80%;
+    }
+    
+    .green{
+      width: 100%;
+      float: none;
+    }
+    
+  }
+
+  @media (min-width: 1200px) {
+    .blue {
+      float: left;
+      width: 25%;
+    }
+    
+    .skyblue {
+      width: 50%;
+      float: none;
+    }
+    
+    .green{
+      width: 25%;
+      float: none;
+    }
+    
+  }
